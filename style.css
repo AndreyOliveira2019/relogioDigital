@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(140deg, rgb(20, 255, 137), rgb(16, 0, 106));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 550px;
+    background: transparent;
+    border-radius: 13px;
+    box-shadow: 10px 10px 8px 10px rgba(0,0,0, .5);
+}
+
+.relogio div {
+    height: 180px;
+    width: 150px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background: rgb(19, 20, 16, 0.9);
+    box-shadow: 5px, 5px, 15px rgba(0, 0, 0);
+    border-radius: 10px;
+    letter-spacing: 3px;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: 15px;
+}
+
+.relogio span.tempo{
+    font-size: 5px;
+}
